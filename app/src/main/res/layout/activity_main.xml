@@ -12,12 +12,12 @@
         android:layout_width="208dp"
         android:layout_height="40dp"
         android:layout_marginStart="100dp"
-        android:padding="8dp"
         android:layout_marginTop="236dp"
         android:background="@color/white"
         android:ems="10"
         android:hint="First Name"
         android:inputType="textPersonName"
+        android:padding="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,10 +28,10 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="304dp"
         android:background="@color/white"
-        android:padding="8dp"
         android:ems="10"
         android:hint="Last Name"
         android:inputType="textPersonName"
+        android:padding="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -42,10 +42,10 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="368dp"
         android:background="@color/white"
-        android:padding="8dp"
         android:ems="10"
         android:hint="Moms Maiden Name"
         android:inputType="textPersonName"
+        android:padding="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,11 +55,11 @@
         android:layout_height="40dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="428dp"
-        android:padding="8dp"
         android:background="@color/white"
         android:ems="10"
         android:hint="City you where born"
         android:inputType="textPersonName"
+        android:padding="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -77,8 +77,8 @@
         android:id="@+id/Generate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="496dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="492dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_menu_view" />
@@ -87,14 +87,25 @@
         android:id="@+id/Name"
         android:layout_width="275dp"
         android:layout_height="75dp"
-        android:padding="8dp"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="592dp"
         android:background="@color/white"
+        android:padding="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:text="Please provide Fields to get Star wars name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="492dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
 </androidx.constraintlayout.widget.ConstraintLayout>
